@@ -17,13 +17,21 @@ const stringToPaskalCase = (string) => {
     .join("");
 };
 
+// const stringToSnakeCase = (string) => {
+//   return string
+//     .split(" ")
+//     .map((word) => {
+//       return word.toLowerCase();
+//     })
+//     .join("_");
+// };
+
 const stringToSnakeCase = (string) => {
-  return string
-    .split(" ")
-    .map((word) => {
-      return word.toLowerCase();
-    })
-    .join("_");
+  const stringArr = string.split(" ");
+  for (let i = 0; i < stringArr.length; i++) {
+    stringArr[i].toUpperCase();
+  }
+  return stringArr.join("_");
 };
 
 const stringToKebabCase = (string) => {
