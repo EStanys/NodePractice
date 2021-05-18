@@ -16,4 +16,13 @@ const stringToPaskalCase = (string) => {
     })
     .join("");
 };
-module.exports = { stringToCamelCase, stringToPaskalCase };
+
+const stringToSnakeCase = (string) => {
+  return string
+    .split(" ")
+    .map((word) => {
+      return word.toLowerCase();
+    })
+    .join("_");
+};
+module.exports = { stringToCamelCase, stringToPaskalCase, stringToSnakeCase };
