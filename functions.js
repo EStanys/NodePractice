@@ -25,4 +25,13 @@ const stringToSnakeCase = (string) => {
     })
     .join("_");
 };
-module.exports = { stringToCamelCase, stringToPaskalCase, stringToSnakeCase };
+
+const stringToKebabCase = (string) => {
+  return string
+    .split(" ")
+    .map((word) => {
+      return word.toLowerCase();
+    })
+    .join("-");
+};
+module.exports = { stringToCamelCase, stringToPaskalCase, stringToSnakeCase, stringToKebabCase };
