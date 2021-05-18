@@ -28,10 +28,11 @@ const stringToPaskalCase = (string) => {
 
 const stringToSnakeCase = (string) => {
   const stringArr = string.split(" ");
+  const res = [];
   for (let i = 0; i < stringArr.length; i++) {
-    stringArr[i].toUpperCase();
+    res.push(stringArr[i].toUpperCase());
   }
-  return stringArr.join("_");
+  return res.join("_");
 };
 
 const stringToKebabCase = (string) => {
