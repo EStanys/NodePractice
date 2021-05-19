@@ -1,10 +1,18 @@
-const { stringToCamelCase, stringToPaskalCase, stringToSnakeCase, stringToKebabCase } = require("./functions");
-const _ = require("lodash"); // isikeliam lodash
+const {
+  stringToCamelCase,
+  stringToPaskalCase,
+  stringToSnakeCase,
+  stringToKebabCase,
+  getRandomNuber,
+} = require("./functions");
+
+const _ = require("lodash"); // isikeliam lodash. priimta, kad lodash pasivadinam _
 
 console.log("stringToCamelCase", stringToCamelCase("viskas puikiai veikia"));
 console.log("stringToPaskalCase", stringToPaskalCase("viskas puikiai veikia"));
 console.log("stringToSnakeCase", stringToSnakeCase("viskas puikiai veikia"));
 console.log("stringToKebabCase", stringToKebabCase("viskas puikiai veikia"));
+console.log("random:", getRandomNuber(0, 10));
 
 // pradeti organizuoti savo koda su npm
 // npm init

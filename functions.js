@@ -1,3 +1,5 @@
+const _ = require("lodash"); // isikeliam lodash
+
 const stringToCamelCase = (string) => {
   const cammelCase = string
     .split(" ")
@@ -43,4 +45,11 @@ const stringToKebabCase = (string) => {
     })
     .join("-");
 };
-module.exports = { stringToCamelCase, stringToPaskalCase, stringToSnakeCase, stringToKebabCase };
+
+// lodash funkcija
+
+function getRandomNuber(a, b) {
+  return _.random(a, b, true);
+}
+
+module.exports = { stringToCamelCase, stringToPaskalCase, stringToSnakeCase, stringToKebabCase, getRandomNuber };
