@@ -1,0 +1,24 @@
+{
+  "name": "first-npm-project",
+  "version": "1.0.0",
+  "description": "cia mes pasibandom npm pirma karta",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EStanys/NodePractice.git"
+  },
+  "keywords": [
+    "test",
+    "first",
+    "last"
+  ],
+  "author": "E. S.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EStanys/NodePractice/issues"
+  },
+  "homepage": "https://github.com/EStanys/NodePractice#readme"
+}
