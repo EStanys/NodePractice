@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/EStanys/NodePractice/issues"
   },
-  "homepage": "https://github.com/EStanys/NodePractice#readme"
+  "homepage": "https://github.com/EStanys/NodePractice#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
