@@ -20,6 +20,18 @@ console.log("random:", getRandomNuber(0, 10));
 
 // https://www.npmjs.com/ -packets
 
+// istrinti paketa is projekto
+// npm uninstall paketo-pavadinimas
+// npm remove paketo-pavadinimas
+// npm rm paketo-pavadinimas
+// npm un paketo-pavadinimas
+
+// instaliuoti specifine versija nurodom versija po @simboliu
+// npm install bootstrap@4.0.0
+
+// atnaujinti kazkuri pakeita
+// npm update paketo-pavadinimas
+
 // node_modules direktorijoje yra visos musu projekto priklausomybes
 // sitas folderis neturetu buti pridedamas i git
 // .gitignore - faile nurodom failus is direktojas kuriu nenorim prideti i git. parasyt kelia iki ju pvz /node_module
