@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/EStanys/NodePractice#readme",
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "prompt": "^1.1.0",
+    "promt": "*"
   }
 }
