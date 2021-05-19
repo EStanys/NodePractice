@@ -12,7 +12,7 @@ const {
 prompt.start();
 
 //
-// Get two properties from the user: username and email
+// Get properties from the user: username and email
 //
 prompt.get(["YourSentense"], function (err, result) {
   //
