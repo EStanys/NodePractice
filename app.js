@@ -18,6 +18,8 @@ console.log("random:", getRandomNuber(0, 10));
 // npm init
 // npm install --save lodash arba npm i lodash
 
+// https://www.npmjs.com/ -packets
+
 // node_modules direktorijoje yra visos musu projekto priklausomybes
 // sitas folderis neturetu buti pridedamas i git
 // .gitignore - faile nurodom failus is direktojas kuriu nenorim prideti i git. parasyt kelia iki ju pvz /node_module

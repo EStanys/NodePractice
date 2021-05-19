@@ -12,7 +12,7 @@ const {
 prompt.start();
 
 //
-// Get properties from the user: username and email
+// enter the text - change it to kabab case with function in functions.js
 //
 prompt.get(["YourSentense"], function (err, result) {
   //
