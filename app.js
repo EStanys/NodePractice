@@ -1,4 +1,5 @@
 const { stringToCamelCase, stringToPaskalCase, stringToSnakeCase, stringToKebabCase } = require("./functions");
+const _ = require("lodash"); // isikeliam lodash
 
 console.log("stringToCamelCase", stringToCamelCase("viskas puikiai veikia"));
 console.log("stringToPaskalCase", stringToPaskalCase("viskas puikiai veikia"));
